@@ -33,7 +33,9 @@ Install Code-Editor with npm
   cd To-Do-Application
 ```
 
-- Root folder will have two folders client (Frontend), server (Backend)
+Root folder will have two folders `client` (Frontend), `server` (Backend)
+
+- Using `npm` 
 
 Setup frontend (client side)
 
@@ -43,12 +45,30 @@ Setup frontend (client side)
   npm start
 ```
 
+Setup backend (client side) 
+
+```bash
+  cd server
+  npm install 
+  npm start
+```
+
+- Using `yarn`
+
+Setup frontend (client side)
+
+```bash
+  cd client
+  yarn
+  yarn start
+```
+
 Setup backend (client side)
 
 ```bash
   cd server
-  npm install
-  npm start
+  yarn 
+  yarn start
 ```
 
 - We should add `.env` file to `.gitignore` but for your ease I'm not adding it.
@@ -56,3 +76,4 @@ Setup backend (client side)
 ## Extra Skills
 
 - I've also worked with Next.js with scss and Node.js both using Typescript.
+- I can also work with `vite` to create a react app.
